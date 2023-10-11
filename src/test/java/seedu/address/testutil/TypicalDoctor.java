@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import seedu.address.model.DoctorAddressBook;
 import seedu.address.model.person.doctor.Doctor;
 
 /**
@@ -42,6 +43,14 @@ public class TypicalDoctor {
     public static final String KEYWORD_MATCHING_MEIER = "Meier"; // A keyword that matches MEIER
 
     private TypicalDoctor() {} // prevents instantiation
+
+    public static DoctorAddressBook getTypicalDoctorAddressBook() {
+        DoctorAddressBook ab = new DoctorAddressBook();
+        for (Doctor doctor : getTypicalDoctor()) {
+            ab.addDoctor(doctor);
+        }
+        return ab;
+    }
 
     public static List<Doctor> getTypicalDoctor() {
         return new ArrayList<>(Arrays.asList(ALICE, BENSON, CARL, DANIEL, ELLE, FIONA, GEORGE));
