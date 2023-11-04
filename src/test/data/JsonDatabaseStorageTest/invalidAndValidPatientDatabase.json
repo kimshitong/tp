@@ -1,7 +1,7 @@
 {
   "patients": [ {
     "name": "Valid Patient",
-    "phone": "9482424",
+    "phone": "94824245",
     "nric": "T0123456F"
   }, {
     "name": "Person With Invalid Phone Field",

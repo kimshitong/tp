@@ -83,8 +83,8 @@ public class NameContainsKeywordsPatientPredicateTest {
         assertFalse(predicate.test(new PatientBuilder().withName("Alice Bob").build()));
 
         // Keywords match phone, but does not match name
-        predicate = new NameContainsKeywordsPatientPredicate(Arrays.asList("12345"));
-        assertFalse(predicate.test(new PatientBuilder().withName("Alice").withPhone("12345").build()));
+        predicate = new NameContainsKeywordsPatientPredicate(Arrays.asList("81234567"));
+        assertFalse(predicate.test(new PatientBuilder().withName("Alice").withPhone("81234567").build()));
     }
 
     @Test

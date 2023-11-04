@@ -1,12 +1,12 @@
 {
   "patients": [ {
     "name": "Valid Patient",
-    "phone": "9482424",
+    "phone": "94824245",
     "nric": "T0123456F"
   } ],
   "doctors": [ {
     "name": "Valid Doctor",
-    "phone": "9482424",
+    "phone": "94824245",
     "nric": "S6543210Z"
   } ],
   "appointments": [ {

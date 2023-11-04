@@ -42,24 +42,24 @@ public class TypicalPatient {
     public static final Patient DANIEL = new PatientBuilder().withName(PersonUtil.DANIEL_NAME).withPhone(DANIEL_PHONE)
             .withNric(PersonUtil.DANIEL_NRIC).build();
 
-    public static final String ELLE_PHONE = "9482224";
+    public static final String ELLE_PHONE = "94822244";
     public static final Patient ELLE = new PatientBuilder().withName(PersonUtil.ELLE_NAME).withPhone(ELLE_PHONE)
             .withNric(PersonUtil.ELLE_NRIC).build();
 
-    public static final String FIONA_PHONE = "9482427";
+    public static final String FIONA_PHONE = "94824278";
     public static final Patient FIONA = new PatientBuilder().withName(PersonUtil.FIONA_NAME).withPhone(FIONA_PHONE)
             .withNric(PersonUtil.FIONA_NRIC).build();
 
-    public static final String GEORGE_PHONE = "9482442";
+    public static final String GEORGE_PHONE = "94824425";
     public static final Patient GEORGE = new PatientBuilder().withName(PersonUtil.GEORGE_NAME).withPhone(GEORGE_PHONE)
             .withNric(PersonUtil.GEORGE_NRIC).build();
 
-    public static final String HOON_PHONE = "8482424";
+    public static final String HOON_PHONE = "84824245";
     // Manually added
     public static final Patient HOON = new PatientBuilder().withName(PersonUtil.HOON_NAME).withPhone(HOON_PHONE)
             .withNric(PersonUtil.HOON_NRIC).build();
 
-    public static final String IDA_PHONE = "8482131";
+    public static final String IDA_PHONE = "84821315";
     public static final Patient IDA = new PatientBuilder().withName(PersonUtil.IDA_NAME).withPhone(IDA_PHONE)
             .withNric(PersonUtil.IDA_NRIC).build();
 
